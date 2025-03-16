@@ -26,11 +26,11 @@ Features include:
 * Direct stepper drive supports half track, double track, and 1.5x tracking, useuful for getting 32 tpi from a 48tpi drive
 * Auto track 0 seek function will try to locate track 0
 
-The fab files are [here](fab/FloppyExerciserRev2.zip).
+The fab files are [here](https://github.com/Jean-Fred64/FloppyExerciser/tree/Jean_Fred64/Prod).
 
-The schematic is [here](FloppyExerciser.pdf).
+The schematic is [here](https://github.com/Jean-Fred64/FloppyExerciser/blob/Jean_Fred64/KiCad/FloppyExerciser.pdf).
 
-The bill of materials is [here](https://github.com/Jean-Fred64/FloppyExerciser/blob/Jean_Fred64/BOM/BOM.md)
+The bill of materials is [here](https://github.com/Jean-Fred64/FloppyExerciser/blob/Jean_Fred64/BOM)
 
 
 ## Fabrication notes
