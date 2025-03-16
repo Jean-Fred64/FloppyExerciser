@@ -104,7 +104,7 @@ To exit alignment modes, push the menu button.
 
 The board will control the TG43 (track greater than 43) signal used by 8" drives as long as the switch is set to "AUTO".
 
-![Floppy exerciser circuit board](https://github.com/Jean-Fred64/FloppyExerciser/blob/Jean_Fred64/images/FloppyExerciser%20GPS%20%23%20JeanFred64.png)
+![Floppy exerciser circuit board](https://github.com/Jean-Fred64/FloppyExerciser/blob/Jean_Fred64/images/FloppyExerciser%20GPS%20_%20JeanFred64.png)
 
 ## Licensing
 
