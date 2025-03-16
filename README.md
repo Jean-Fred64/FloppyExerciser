@@ -1,6 +1,6 @@
 # Floppy Drive Exerciser version : GPS # Jean-Fred64
 
-![Floppy exerciser circuit board](images/FloppyExerciser.jpg)
+![Floppy exerciser circuit board](https://github.com/Jean-Fred64/FloppyExerciser/blob/Jean_Fred64/images/FloppyExerciser%20GPS%20%23%20JeanFred64_zoom.jpg)
 
 This board helps test floppy drives of several different types:
 
