@@ -46,7 +46,7 @@ Use a 3-position switch for the TG43 switch.
 
 Use SIP sockets for RN1 and RN2 so you can swap in different termination resistor values. I usually use 1K.
 
-Be careful about putting any signals on J2. If EN WRITE gets grounded (the adjacent pin is ground) then it will enable writes on any connected drive, erasing the existing track.
+Be careful about putting any signals on `J2`. If EN WRITE gets grounded (the adjacent pin is ground) then it will enable writes on any connected drive, erasing the existing track.
 
 ## Connecting Drives
 
