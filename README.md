@@ -13,7 +13,7 @@ This board helps test floppy drives of several different types:
 * HP 34-pin drives (as found in many 9122 enclosures)
 * HP 26-pin drives (found in older enclosures and machines)
 * IBM 31SD and 51TD floppy drives
-* Shugart 3.5" floppy drives with [50 pin to 34 pin adapter](https://github.com/Jean-Fred64/FloppyExerciser/blob/Jean_Fred64/50%20pin%20to%2034%20pin%20Mr%20JEANxFRED/readme.md#50-pin-to-34-pin-adapter-for-floppy-drive-exerciser)
+* Shugart 3.5" (Amiga) floppy drives with [50 pin to 34 pin adapter](https://github.com/Jean-Fred64/FloppyExerciser/blob/Jean_Fred64/50%20pin%20to%2034%20pin%20Mr%20JEANxFRED/readme.md#50-pin-to-34-pin-adapter-for-floppy-drive-exerciser)
 
 The board basically breaks out every signal to a control switch, indicator LED, or test point. It's not designed as a flux imaging tool--it's just a simple way to exercise features of a floppy drive.
 
