@@ -26,7 +26,7 @@ Features include:
 * Alignment mode makes it easy to cycle between track 0, middle, and last track
 * Supports half tracking (Apple II) and double tracking modes
 * Supports direct stepper motor drive through separate header
-* Direct stepper drive supports half track, double track, and 1.5x tracking, useuful for getting 32 tpi from a 48tpi drive
+* Direct stepper drive supports half track, double track, and 1.5x tracking, useful for getting 32 tpi from a 48tpi drive
 * Auto track 0 seek function will try to locate track 0
 
 The fab files are [here](https://github.com/Jean-Fred64/FloppyExerciser/tree/Jean_Fred64/Prod).
@@ -46,7 +46,7 @@ Use a 3-position switch for the TG43 switch.
 
 Use SIP sockets for RN1 and RN2 so you can swap in different termination resistor values. I usually use 1K.
 
-Be careful about putting any signals on `J2`. If EN WRITE gets grounded (the adjacent pin is ground) then it will enable writes on any connected drive, erasing the existing track.
+Be careful about putting any signals on `J2`. If `EN WRITE` gets grounded (the adjacent pin is ground) then it will enable writes on any connected drive, erasing the existing track.
 
 ## Connecting Drives
 
@@ -58,14 +58,14 @@ Be careful about putting any signals on `J2`. If EN WRITE gets grounded (the adj
 * **HP 34-pin**: Use connector `J7`. Apply +5V and +12V to the test points on the left side of the board.
 * **HP 26-pin**: Use connector `J8`. Apply +5V to the board and external power to the HP drive.
 
-The board can directly drive an external 4-phase stepper motor. Attach the stepper motor to J1 and connect either +12V or +24V power to the test points on the left side, and set jumper J4 to pick the voltage.
+The board can directly drive an external 4-phase stepper motor. Attach the stepper motor to `J1` and connect either +12V or +24V power to the test points on the left side, and set jumper `J4` to pick the voltage.
 
 ## Firmware
 
 ### Building the Firmware
 
 The code for the ATMega328PB microcontroller is meant to run without a bootloader and can be built from the command line if you
-have installed avr-gcc and avrdude.
+have installed `avr-gcc` and `avrdude`.
 
 ```
 make
