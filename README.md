@@ -1,4 +1,4 @@
-# Floppy Drive Exerciser version : GPS # Jean-Fred64 :floppy_disk:
+# :floppy_disk: Floppy Drive Exerciser version : GPS 🇯🇵 # Jean-Fred64 🇫🇷
 
 ![Floppy exerciser circuit board](https://github.com/Jean-Fred64/FloppyExerciser/blob/Jean_Fred64/images/FloppyExerciser%20GPS%20%23%20JeanFred64_zoom.jpg)
 
