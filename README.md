@@ -1,4 +1,4 @@
-# Floppy Exerciser
+# Floppy Drive Exerciser version : GPS # Jean-Fred64
 
 ![Floppy exerciser circuit board](images/FloppyExerciser.jpg)
 
