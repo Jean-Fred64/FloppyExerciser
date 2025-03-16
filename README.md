@@ -80,6 +80,8 @@ support it yet, see [here](https://gist.github.com/goncalor/51e1c8038cc058b43795
 
 The bottom of the board has a standard 6-pin AVR programming header as a surface mount footprint. Since you only need to program it once, you could plug a header into the programmer's cable and physically push it up against the board, or you could temporarily tack-solder it in place. Or just leave it soldered in place and install standoffs in the corners of the board.
 
+![schematics J3](https://github.com/Jean-Fred64/FloppyExerciser/blob/Jean_Fred64/firmware/Schema%20PROG%20J3%20MOSI%20MISO%20SCK.jpg)
+
 ### Using the Firmware
 
 On startup, the display will temporarily indicate `HI` and then prompt you for the stepping mode:
