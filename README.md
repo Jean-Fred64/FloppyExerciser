@@ -30,7 +30,7 @@ The fab files are [here](fab/FloppyExerciserRev2.zip).
 
 The schematic is [here](FloppyExerciser.pdf).
 
-The bill of materials is [here](FloppyExerciser.csv)
+The bill of materials is [here](https://github.com/Jean-Fred64/FloppyExerciser/blob/Jean_Fred64/BOM/BOM.md)
 
 
 ## Fabrication notes
