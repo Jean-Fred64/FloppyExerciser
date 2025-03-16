@@ -50,13 +50,13 @@ Be careful about putting any signals on J2. If EN WRITE gets grounded (the adjac
 
 ## Connecting Drives
 
-* Apple II: Use connector J12. Apply -12V, +5V, and +12V to the test points on the left side of the board.
-* PC: Use connector J6. Apply +5V to the test point on the left side of the board. Connect a Molex connector to the floppy drive for power (+5V and sometimes +12V).
-* PS/2: Use connector J11. Apply +5V and +12V to the test points on the left side of the board.
-* Shugart: Use connector J9. Apply +5V to the test point on the left side of the board. Connect the drive to power externally (typically +5V, +24V, and 120VAC).
-* IBM 31SD/51TD: Use connector J10. The 31SD has fewer pins, line it up with pin 1. Apply +5V, -5V, and +24V to the test points on the left side of the board.
-* HP 34-pin: Use connector J7. Apply +5V and +12V to the test points on the left side of the board.
-* HP 26-pin: Use connector J8. Apply +5V to the board and external power to the HP drive.
+* **Apple II**: Use connector `J12`. Apply -12V, +5V, and +12V to the test points on the left side of the board.
+* **PC**: Use connector `J6`. Apply +5V to the test point on the left side of the board. Connect a Molex connector to the floppy drive for power (+5V and sometimes +12V).
+* **PS/2**: Use connector `J11`. Apply +5V and +12V to the test points on the left side of the board.
+* **Shugart**: Use connector `J9`. Apply +5V to the test point on the left side of the board. Connect the drive to power externally (typically +5V, +24V, and 120VAC).
+* **IBM 31SD/51TD**: Use connector `J10`. The 31SD has fewer pins, line it up with pin 1. Apply +5V, -5V, and +24V to the test points on the left side of the board.
+* **HP 34-pin**: Use connector `J7`. Apply +5V and +12V to the test points on the left side of the board.
+* **HP 26-pin**: Use connector `J8`. Apply +5V to the board and external power to the HP drive.
 
 The board can directly drive an external 4-phase stepper motor. Attach the stepper motor to J1 and connect either +12V or +24V power to the test points on the left side, and set jumper J4 to pick the voltage.
 
@@ -84,10 +84,10 @@ The bottom of the board has a standard 6-pin AVR programming header as a surface
 
 On startup, the display will temporarily indicate `HI` and then prompt you for the stepping mode:
 
-* SS - single step
-* DS - double step
-* HS - half step
-* 15 - 1.5x step
+* `SS` - single step
+* `DS` - double step
+* `HS` - half step
+* `15` - 1.5x step
 
 Half step mode and 1.5x step are supported on the direct drive stepper motor header and the Apple II header.
 
@@ -97,15 +97,26 @@ The display now indicates the current track. Move the encoder wheel to pick a ne
 
 For additional functions, you can push the menu button. Menu options are selected with the encoder wheel:
 
-* HO - Home to track 0. The controller seeks until TRACK0 asserts or it steps by 80 tracks
-* A8 - Alignment mode for 80 tracks. In this mode, the encoder switches between track 0, track 39, and track 79
-* A7 - Alignment mode for 77 tracks
-* A4 - Alignment mode for 40 tracks
-* 35 - Alignment mode for 35 tracks
+* `HO` - Home to track 0. The controller seeks until TRACK0 asserts or it steps by 80 tracks
+* `A8` - Alignment mode for 80 tracks. In this mode, the encoder switches between track 0, track 39, and track 79
+* `A7` - Alignment mode for 77 tracks
+* `A4` - Alignment mode for 40 tracks
+* `35` - Alignment mode for 35 tracks
 
 To exit alignment modes, push the menu button.
 
 The board will control the TG43 (track greater than 43) signal used by 8" drives as long as the switch is set to "AUTO".
+
+* **RATE (RV1)** - rate sets how fast the firmware steps the drive
+
+* **Pulse width (RV2)** - pulse width sets how wide the pulses are that it feeds to the drive, sometimes you have to adjust it for certain drives.
+
+* **STEP (SW2)** - STEP lets you manually step the stepper motor even with no firmware.
+
+* **DIR OUT / AUTO - IN (SW10)** - DIR OUT means step the head to the outside edge direction - AUTO means let the firmware control the direction pin - DIR IN means step in towards the hub.
+
+* **DISKCHG RESET (HP) (SW3)** - DISKCHG RESET is only for certain HP drives that have a flip flop built in for tracking disk changes.
+
 
 ![Floppy exerciser circuit board](https://github.com/Jean-Fred64/FloppyExerciser/blob/Jean_Fred64/images/FloppyExerciser%20GPS%20_%20JeanFred64.png)
 
