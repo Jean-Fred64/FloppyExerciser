@@ -97,6 +97,9 @@ Select the mode with the encoder wheel and then push it down to select the optio
 
 The display now indicates the current track. Move the encoder wheel to pick a new track. The display will blink to indicate your desired track. Once you are satisfied with it, push down on the encoder to select that track.
 
+*Tips :*
+if you push and hold the button down while turning it, it immediately steps to that track while displaying that track number
+
 For additional functions, you can push the menu button. Menu options are selected with the encoder wheel:
 
 * `HO` - Home to track 0. The controller seeks until TRACK0 asserts or it steps by 80 tracks
